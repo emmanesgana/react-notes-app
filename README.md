@@ -1,4 +1,6 @@
-# co26846179aa77697a78d5569
+# Demo
+
+[Link to demo](https://nuutri-notes-app.netlify.app/)
 
 Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
 
