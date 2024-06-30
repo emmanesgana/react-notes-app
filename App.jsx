@@ -46,7 +46,7 @@ export default function App() {
             if (tempNoteText !== currentNote.body) {
                 updateNote(tempNoteText)
             }
-        }, 1500)
+        }, 500)
         return () => clearTimeout(timeoutId)
     }, [tempNoteText])
 
