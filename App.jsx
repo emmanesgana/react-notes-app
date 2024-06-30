@@ -10,7 +10,7 @@ import {
     deleteDoc,
     setDoc
 } from "firebase/firestore"
-import { notesCollection, db } from "./firebase.js"
+import { notesCollection, db } from "./firebase"
 
 export default function App() {
     const [notes, setNotes] = React.useState([])
